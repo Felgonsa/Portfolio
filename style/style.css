@@ -32,6 +32,7 @@ h1{
 
 #skills{
     height: 100vh;
+   margin: 0px;
     
 }
 
@@ -95,6 +96,17 @@ margin-right: 19px;
 
 #social a{
     text-decoration: none;
+}
+
+@media (max-width: 770px){
+    #portfolio{
+        height: 60vh;
+    }
+}
+@media (max-width: 400px){
+    #portfolio{
+        height: 40vh;
+    }
 }
 
 
